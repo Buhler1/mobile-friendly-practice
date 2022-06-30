@@ -10,5 +10,41 @@
 
 h1 {
     position: absolute;
-    
+    left: 40%;
+    top: 10%;
+    color: white;
+    font-size: 56px;
+}
+
+section {
+    position: absolute;
+    top: 60%;
+    padding: 20px 200px;
+}
+
+h2 {
+    color: #01869f;
+    padding-bottom: 2%;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+.right {
+    text-align: right;
+    top: 90%;
+}
+
+footer p {
+    position: absolute;
+    top: 125%;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #004552;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.copyright {
+    padding-top: 75px;
 }
