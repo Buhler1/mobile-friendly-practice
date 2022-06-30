@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .cls-1 {
+        fill: green !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cls-1 {
+        fill: yellow !important;
+    }
+}
+
 .wave {
     position: relative;
     z-index: -1;
@@ -18,7 +30,7 @@ h1 {
 
 section {
     position: absolute;
-    top: 60%;
+    top: 65%;
     padding: 20px 200px;
 }
 
